@@ -2,14 +2,14 @@
 {
     "name": "universe",
     "id": "4bd580e1-3367-4136-8300-18b050032a57",
-    "creationCodeFile": "",
+    "creationCodeFile": "RoomCreationCode.gml",
     "inheritCode": false,
     "inheritCreationOrder": false,
     "inheritLayers": false,
     "instanceCreationOrderIDs": [
         "6977e177-7d71-424d-8d31-3b8179d8046f"
     ],
-    "IsDnD": true,
+    "IsDnD": false,
     "layers": [
         {
             "__type": "GMRInstanceLayer_Model:#YoYoStudio.MVCFormat",
