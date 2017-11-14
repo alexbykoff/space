@@ -7,7 +7,8 @@
         "dd6e164d-8336-4aca-a599-87cb9842584e",
         "f8ac2051-3928-42a6-b696-55b086eec5ee",
         "3f90d1f0-60eb-4408-8a4a-006431b4e9b9",
-        "a8699a13-6700-4ed9-83ed-2a091346aef0"
+        "a8699a13-6700-4ed9-83ed-2a091346aef0",
+        "26573417-2708-4aa4-a6c0-2be90763e755"
     ],
     "filterType": "GMSprite",
     "folderName": "Planets",

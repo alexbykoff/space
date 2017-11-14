@@ -20,6 +20,9 @@ for(i = 0; i < planetCount; i++) {
 		case "Silicate":
 			current.sprite_index = s_planet_silicate;
 			break;
+		case "Ocean":
+			current.sprite_index = s_planet_ocean;
+			break;
 		default:
 			current.sprite_index = s_planet_silicate;
 			break;

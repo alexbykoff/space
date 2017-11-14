@@ -79,6 +79,14 @@
             }
         },
         {
+            "Key": "26573417-2708-4aa4-a6c0-2be90763e755",
+            "Value": {
+                "id": "8fdb665a-7fbf-48a7-b4d5-3ec89a14b020",
+                "resourcePath": "sprites\\s_planet_ocean\\s_planet_ocean.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "2f83a6f1-1ac4-4de4-b9bd-296632ef459d",
             "Value": {
                 "id": "7ddf5b2b-c31b-4da0-9811-8d521d4b7cb3",
