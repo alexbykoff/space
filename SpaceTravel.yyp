@@ -31,10 +31,18 @@
     },
     "resources": [
         {
+            "Key": "02147891-9416-4080-8f6e-b8c470c79043",
+            "Value": {
+                "id": "6f7cada1-9403-4205-a866-4f895c077579",
+                "resourcePath": "fonts\\f_title14\\f_title14.yy",
+                "resourceType": "GMFont"
+            }
+        },
+        {
             "Key": "0289f691-5bdd-49d1-b72d-83f881d87cb4",
             "Value": {
                 "id": "14eb4aa1-3427-4ed1-8c59-93456672a86b",
-                "resourcePath": "objects\/o_planet_1\/o_planet_1.yy",
+                "resourcePath": "objects\\o_planet\\o_planet.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -55,11 +63,27 @@
             }
         },
         {
+            "Key": "15f55fea-5dcc-48c2-b41c-a8a50ce972c0",
+            "Value": {
+                "id": "e88e2957-2262-4559-aa87-2a03e0e7924e",
+                "resourcePath": "views\\15f55fea-5dcc-48c2-b41c-a8a50ce972c0.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "1b1cf4ea-fc64-4972-bdef-6d79ef07fc13",
             "Value": {
                 "id": "a58df066-4bb1-4d8e-83f4-9a5b44f737c1",
                 "resourcePath": "rooms\/planet\/planet.yy",
                 "resourceType": "GMRoom"
+            }
+        },
+        {
+            "Key": "26573417-2708-4aa4-a6c0-2be90763e755",
+            "Value": {
+                "id": "8fdb665a-7fbf-48a7-b4d5-3ec89a14b020",
+                "resourcePath": "sprites\\s_planet_ocean\\s_planet_ocean.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -103,6 +127,14 @@
             }
         },
         {
+            "Key": "3f90d1f0-60eb-4408-8a4a-006431b4e9b9",
+            "Value": {
+                "id": "b3891eae-7541-4310-8d67-201d99192d80",
+                "resourcePath": "sprites\\s_planet_lava\\s_planet_lava.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "430c99c4-ac50-4f9e-9bb6-c299b316e726",
             "Value": {
                 "id": "03d7b6f2-5885-4743-8cc2-561a340a6ae6",
@@ -119,19 +151,19 @@
             }
         },
         {
-            "Key": "4b74e62a-b34e-4fb3-8300-4ebf211968ea",
-            "Value": {
-                "id": "4728e5e5-2345-4f22-8e01-0abd7b03e389",
-                "resourcePath": "objects\/o_planet_4\/o_planet_4.yy",
-                "resourceType": "GMObject"
-            }
-        },
-        {
             "Key": "4bd580e1-3367-4136-8300-18b050032a57",
             "Value": {
                 "id": "db91a961-3e02-4abb-ad60-bbc4d3400a65",
                 "resourcePath": "rooms\/universe\/universe.yy",
                 "resourceType": "GMRoom"
+            }
+        },
+        {
+            "Key": "5223e53a-ef81-4f1f-a0fb-83ae7781e658",
+            "Value": {
+                "id": "7f001279-e224-4759-b58f-3a9d310f578e",
+                "resourcePath": "fonts\\f_normal10\\f_normal10.yy",
+                "resourceType": "GMFont"
             }
         },
         {
@@ -143,11 +175,11 @@
             }
         },
         {
-            "Key": "59ab3add-244c-4dde-89c2-c48dc69f33b7",
+            "Key": "58665921-35cb-4dcb-8938-b5c380a709bc",
             "Value": {
-                "id": "da24d075-37d1-43a9-88d8-c8fb4bc37d4c",
-                "resourcePath": "sprites\/s_planet_2\/s_planet_2.yy",
-                "resourceType": "GMSprite"
+                "id": "a791c492-913e-4907-bac8-f02345cafa31",
+                "resourcePath": "views\\58665921-35cb-4dcb-8938-b5c380a709bc.yy",
+                "resourceType": "GMFolder"
             }
         },
         {
@@ -159,19 +191,11 @@
             }
         },
         {
-            "Key": "67c47ece-4529-457f-83f7-5f6640f62fe8",
+            "Key": "6cfd8e41-439c-40dd-8667-9c7816371212",
             "Value": {
-                "id": "00fb566f-5bad-4412-9f02-17cb1a7412bd",
-                "resourcePath": "objects\/o_planet_2\/o_planet_2.yy",
-                "resourceType": "GMObject"
-            }
-        },
-        {
-            "Key": "721f7227-a374-490a-86bb-05bbe3edceef",
-            "Value": {
-                "id": "a4f946d8-5149-4241-bbae-0ed9ed68c031",
-                "resourcePath": "objects\/o_planet_3\/o_planet_3.yy",
-                "resourceType": "GMObject"
+                "id": "ea6a37a9-7ac4-4bba-8b13-82049b89e09a",
+                "resourcePath": "sprites\\s_planet_desert\\s_planet_desert.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -212,6 +236,14 @@
                 "id": "dda6b92d-8875-400c-b440-df2efa938e15",
                 "resourcePath": "extensions\\Totro_Random_Name_Generator\\Totro_Random_Name_Generator.yy",
                 "resourceType": "GMExtension"
+            }
+        },
+        {
+            "Key": "a8699a13-6700-4ed9-83ed-2a091346aef0",
+            "Value": {
+                "id": "39ffab8d-839f-4dff-b40c-f7b7debc0599",
+                "resourcePath": "sprites\\s_planet_iron\\s_planet_iron.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -290,7 +322,7 @@
             "Key": "dd6e164d-8336-4aca-a599-87cb9842584e",
             "Value": {
                 "id": "02784846-59cc-400a-a923-204a00ac72d9",
-                "resourcePath": "sprites\/s_planet_1\/s_planet_1.yy",
+                "resourcePath": "sprites\\s_planet_silicate\\s_planet_silicate.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -308,6 +340,14 @@
                 "id": "07b7a178-2a14-4fef-a35e-8b9004790bb4",
                 "resourcePath": "views\/e118bc1c-3062-45d1-aeac-89d6c63f80ba.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "e2728993-9722-4efe-8550-29f3e5fec8c4",
+            "Value": {
+                "id": "6161bcaf-0998-4c5a-9f24-e3fd869f42ba",
+                "resourcePath": "extensions\\Shadow\\Shadow.yy",
+                "resourceType": "GMExtension"
             }
         },
         {
@@ -332,6 +372,14 @@
                 "id": "b973a241-a822-4471-bbf9-ba6e370b311b",
                 "resourcePath": "options\/mac\/options_mac.yy",
                 "resourceType": "GMMacOptions"
+            }
+        },
+        {
+            "Key": "f8ac2051-3928-42a6-b696-55b086eec5ee",
+            "Value": {
+                "id": "8ad17c88-43f5-43dc-95d8-82176f69883b",
+                "resourcePath": "sprites\\s_planet_ice\\s_planet_ice.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
