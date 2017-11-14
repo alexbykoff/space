@@ -1,8 +1,8 @@
 {
-    "id": "4b74e62a-b34e-4fb3-8300-4ebf211968ea",
+    "id": "d74818ab-13c9-466b-b4a2-20c5f73693f3",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "o_planet_4",
+    "name": "o_systemController",
     "eventList": [
         
     ],
@@ -22,6 +22,6 @@
     "physicsShapePoints": null,
     "physicsStartAwake": true,
     "solid": false,
-    "spriteId": "59ab3add-244c-4dde-89c2-c48dc69f33b7",
-    "visible": true
+    "spriteId": "00000000-0000-0000-0000-000000000000",
+    "visible": false
 }

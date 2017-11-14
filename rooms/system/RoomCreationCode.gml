@@ -29,6 +29,9 @@ for(i = 0; i < planetCount; i++) {
 	with(current) {		
 		image_yscale = p[? "mass"];
 		image_xscale = image_yscale;
+		name = p[? "name"];
+		type = p[? "type"];
+		mass = p[? "mass"];
 	}	
 }
 

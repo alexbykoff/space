@@ -25,7 +25,7 @@ for(i = 0; i < round(random_range(20, 40)); i++) {  // number of stars
 	
 	for (k = 0; k < round(random_range(0, 7)); k++) {
 		var p = ds_map_create();
-		var planetName = totro(1, 4, 1);
+		var planetName = totro(2, 5, 1);
 		planetName = planetName[0];
 		p[? "name"] = planetName;
 		p[? "type"] = choose("Ice", "Ocean", "Desert", "Lava", "Iron", "Silicate");

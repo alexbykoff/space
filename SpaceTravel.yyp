@@ -31,6 +31,14 @@
     },
     "resources": [
         {
+            "Key": "02147891-9416-4080-8f6e-b8c470c79043",
+            "Value": {
+                "id": "6f7cada1-9403-4205-a866-4f895c077579",
+                "resourcePath": "fonts\\f_title14\\f_title14.yy",
+                "resourceType": "GMFont"
+            }
+        },
+        {
             "Key": "0289f691-5bdd-49d1-b72d-83f881d87cb4",
             "Value": {
                 "id": "14eb4aa1-3427-4ed1-8c59-93456672a86b",
@@ -51,6 +59,14 @@
             "Value": {
                 "id": "cd2809e1-70b2-4041-b749-da30d707c611",
                 "resourcePath": "views\/155c3cd2-a929-4051-8612-b75bf3d79cda.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "15f55fea-5dcc-48c2-b41c-a8a50ce972c0",
+            "Value": {
+                "id": "e88e2957-2262-4559-aa87-2a03e0e7924e",
+                "resourcePath": "views\\15f55fea-5dcc-48c2-b41c-a8a50ce972c0.yy",
                 "resourceType": "GMFolder"
             }
         },
@@ -135,10 +151,26 @@
             }
         },
         {
+            "Key": "5223e53a-ef81-4f1f-a0fb-83ae7781e658",
+            "Value": {
+                "id": "7f001279-e224-4759-b58f-3a9d310f578e",
+                "resourcePath": "fonts\\f_normal10\\f_normal10.yy",
+                "resourceType": "GMFont"
+            }
+        },
+        {
             "Key": "52d31750-4f24-4b5d-979c-ef293c8c3b49",
             "Value": {
                 "id": "443e3d70-4aa6-454e-8f9b-0faae94a9579",
                 "resourcePath": "views\/52d31750-4f24-4b5d-979c-ef293c8c3b49.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "58665921-35cb-4dcb-8938-b5c380a709bc",
+            "Value": {
+                "id": "a791c492-913e-4907-bac8-f02345cafa31",
+                "resourcePath": "views\\58665921-35cb-4dcb-8938-b5c380a709bc.yy",
                 "resourceType": "GMFolder"
             }
         },
@@ -244,6 +276,14 @@
                 "id": "c4036916-3450-4619-a5bc-d81e06e1c006",
                 "resourcePath": "options\/windows\/options_windows.yy",
                 "resourceType": "GMWindowsOptions"
+            }
+        },
+        {
+            "Key": "d74818ab-13c9-466b-b4a2-20c5f73693f3",
+            "Value": {
+                "id": "d8e52785-399e-416c-b8c6-f5fa1dda79ee",
+                "resourcePath": "objects\\o_systemController\\o_systemController.yy",
+                "resourceType": "GMObject"
             }
         },
         {
