@@ -1,11 +1,15 @@
-for(i = 0; i < random_range(2,5); i += 1) {
-	instance_create_layer(300+150*i, 360, "Instances", o_planet_1);
+var planetarySystem = global.spaceMap[0];
+var planetCount = planetarySystem[? "planetCount"];
+var planets = planetarySystem[? "planetList"];
 
-	with(o_planet_1) {
-	image_yscale = random_range(0.5, 1.5);
-	}
-
-	with(o_planet_1) {
-	image_xscale = image_yscale;
-	}
+for(i = 0; i < planetCount; i++) {
+	
+	var p = planets[i];	
+	var current = instance_create_layer(300 + 150 * i, 360, "Instances", o_planet_1);
+	show_debug_message(p[? "mass"]);
+	with(current) {		
+		image_yscale = p[? "mass"];
+		image_xscale = image_yscale;
+	}	
 }
+

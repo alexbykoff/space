@@ -29,7 +29,7 @@ for(i = 0; i < round(random_range(20, 40)); i++) {  // number of stars
 		planetName = planetName[0];
 		p[? "name"] = planetName;
 		p[? "type"] = choose("Ice", "Ocean", "Desert", "Lava", "Iron", "Silicate");
-		p[? "mass"] = round(random_range(25, 400)) / 100;
+		p[? "mass"] = (round(random_range(25, 200))) / 100;
 		planets[k] = p;
 	}
 	
