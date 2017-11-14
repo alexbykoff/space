@@ -17,6 +17,7 @@ global.player[? "credits"] = 1000;
 global.player[? "ship"] = global.ship;
 
 global.starId = 0;
+global.planetId = 0;
 
 var numberOfStars = 40;
 var starCellSize = 128;

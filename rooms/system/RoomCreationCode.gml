@@ -2,7 +2,7 @@ var planetarySystem = global.spaceMap[global.starId];
 var planetCount = planetarySystem[? "planetCount"];
 var planets = planetarySystem[? "planetList"];
 
-for(i = 0; i < planetCount; i++) {
+for(var i = 0; i < planetCount; i++) {
 	
 	var p = planets[i];	
 	var current = instance_create_layer(300 + 150 * i, 360, "Instances", o_planet);
@@ -39,6 +39,7 @@ for(i = 0; i < planetCount; i++) {
 		name = p[? "name"];
 		type = p[? "type"];
 		mass = p[? "mass"];
+		planetId = i;
 	}	
 }
 
