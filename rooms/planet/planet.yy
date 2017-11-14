@@ -2,7 +2,7 @@
 {
     "name": "planet",
     "id": "1b1cf4ea-fc64-4972-bdef-6d79ef07fc13",
-    "creationCodeFile": "",
+    "creationCodeFile": "RoomCreationCode.gml",
     "inheritCode": false,
     "inheritCreationOrder": false,
     "inheritLayers": false,
@@ -10,7 +10,7 @@
         "98567d2e-4840-4da4-b89b-595a3808d012",
         "5fcadc0f-35bd-4127-9360-c473a4a62dda"
     ],
-    "IsDnD": true,
+    "IsDnD": false,
     "layers": [
         {
             "__type": "GMRInstanceLayer_Model:#YoYoStudio.MVCFormat",
