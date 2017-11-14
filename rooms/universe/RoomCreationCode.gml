@@ -1,3 +1,4 @@
+
 randomize(); // reset seed for an every game
 
 global.spaceMap = [];
