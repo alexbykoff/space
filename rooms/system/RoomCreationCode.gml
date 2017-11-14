@@ -1,4 +1,4 @@
-var planetarySystem = global.spaceMap[0];
+var planetarySystem = global.spaceMap[global.starId];
 var planetCount = planetarySystem[? "planetCount"];
 var planets = planetarySystem[? "planetList"];
 
