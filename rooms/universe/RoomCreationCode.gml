@@ -23,7 +23,7 @@ for(i = 0; i < round(random_range(20, 40)); i++) {  // number of stars
 	var star = ds_map_create();  // data structure map is object alike
 	var planets = [];
 	
-	for (k = 0; k < round(random_range(0, 7)); k++) {
+	for (k = 0; k < round(random_range(0, 8)); k++) {
 		var p = ds_map_create();
 		var planetName = totro(2, 5, 1);
 		planetName = planetName[0];

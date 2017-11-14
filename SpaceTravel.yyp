@@ -191,6 +191,14 @@
             }
         },
         {
+            "Key": "6cfd8e41-439c-40dd-8667-9c7816371212",
+            "Value": {
+                "id": "ea6a37a9-7ac4-4bba-8b13-82049b89e09a",
+                "resourcePath": "sprites\\s_planet_desert\\s_planet_desert.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "86640392-b27e-4e84-8b48-a5e8c20d16cc",
             "Value": {
                 "id": "35c2976b-701f-4889-a814-d11f2224cbab",
@@ -287,14 +295,6 @@
             }
         },
         {
-            "Key": "d74818ab-13c9-466b-b4a2-20c5f73693f3",
-            "Value": {
-                "id": "d8e52785-399e-416c-b8c6-f5fa1dda79ee",
-                "resourcePath": "objects\\o_systemController\\o_systemController.yy",
-                "resourceType": "GMObject"
-            }
-        },
-        {
             "Key": "db0157f9-d876-4346-aeae-119310713f28",
             "Value": {
                 "id": "34bb1542-aedd-4558-8e8e-876763906f10",
@@ -340,6 +340,14 @@
                 "id": "07b7a178-2a14-4fef-a35e-8b9004790bb4",
                 "resourcePath": "views\/e118bc1c-3062-45d1-aeac-89d6c63f80ba.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "e2728993-9722-4efe-8550-29f3e5fec8c4",
+            "Value": {
+                "id": "6161bcaf-0998-4c5a-9f24-e3fd869f42ba",
+                "resourcePath": "extensions\\Shadow\\Shadow.yy",
+                "resourceType": "GMExtension"
             }
         },
         {

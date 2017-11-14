@@ -23,6 +23,9 @@ for(i = 0; i < planetCount; i++) {
 		case "Ocean":
 			current.sprite_index = s_planet_ocean;
 			break;
+		case "Desert":
+			current.sprite_index = s_planet_desert;
+			break;
 		default:
 			current.sprite_index = s_planet_silicate;
 			break;
@@ -32,6 +35,7 @@ for(i = 0; i < planetCount; i++) {
 	with(current) {		
 		image_yscale = p[? "mass"];
 		image_xscale = image_yscale;
+		image_angle = round(random_range(0, 360));
 		name = p[? "name"];
 		type = p[? "type"];
 		mass = p[? "mass"];
