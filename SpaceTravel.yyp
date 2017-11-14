@@ -34,7 +34,7 @@
             "Key": "0289f691-5bdd-49d1-b72d-83f881d87cb4",
             "Value": {
                 "id": "14eb4aa1-3427-4ed1-8c59-93456672a86b",
-                "resourcePath": "objects\/o_planet_1\/o_planet_1.yy",
+                "resourcePath": "objects\\o_planet\\o_planet.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -103,6 +103,14 @@
             }
         },
         {
+            "Key": "3f90d1f0-60eb-4408-8a4a-006431b4e9b9",
+            "Value": {
+                "id": "b3891eae-7541-4310-8d67-201d99192d80",
+                "resourcePath": "sprites\\s_planet_lava\\s_planet_lava.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "430c99c4-ac50-4f9e-9bb6-c299b316e726",
             "Value": {
                 "id": "03d7b6f2-5885-4743-8cc2-561a340a6ae6",
@@ -116,14 +124,6 @@
                 "id": "05eba8e1-42eb-412e-9a0a-4b4e7b6ba266",
                 "resourcePath": "views\/444281b8-6c76-4f53-888e-21132becd7d6.yy",
                 "resourceType": "GMFolder"
-            }
-        },
-        {
-            "Key": "4b74e62a-b34e-4fb3-8300-4ebf211968ea",
-            "Value": {
-                "id": "4728e5e5-2345-4f22-8e01-0abd7b03e389",
-                "resourcePath": "objects\/o_planet_4\/o_planet_4.yy",
-                "resourceType": "GMObject"
             }
         },
         {
@@ -143,35 +143,11 @@
             }
         },
         {
-            "Key": "59ab3add-244c-4dde-89c2-c48dc69f33b7",
-            "Value": {
-                "id": "da24d075-37d1-43a9-88d8-c8fb4bc37d4c",
-                "resourcePath": "sprites\/s_planet_2\/s_planet_2.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
             "Key": "65a78861-3a08-4f49-9bae-760c31961822",
             "Value": {
                 "id": "d907359e-db70-4d3b-b4af-cdfc59225624",
                 "resourcePath": "views\/65a78861-3a08-4f49-9bae-760c31961822.yy",
                 "resourceType": "GMFolder"
-            }
-        },
-        {
-            "Key": "67c47ece-4529-457f-83f7-5f6640f62fe8",
-            "Value": {
-                "id": "00fb566f-5bad-4412-9f02-17cb1a7412bd",
-                "resourcePath": "objects\/o_planet_2\/o_planet_2.yy",
-                "resourceType": "GMObject"
-            }
-        },
-        {
-            "Key": "721f7227-a374-490a-86bb-05bbe3edceef",
-            "Value": {
-                "id": "a4f946d8-5149-4241-bbae-0ed9ed68c031",
-                "resourcePath": "objects\/o_planet_3\/o_planet_3.yy",
-                "resourceType": "GMObject"
             }
         },
         {
@@ -212,6 +188,14 @@
                 "id": "dda6b92d-8875-400c-b440-df2efa938e15",
                 "resourcePath": "extensions\\Totro_Random_Name_Generator\\Totro_Random_Name_Generator.yy",
                 "resourceType": "GMExtension"
+            }
+        },
+        {
+            "Key": "a8699a13-6700-4ed9-83ed-2a091346aef0",
+            "Value": {
+                "id": "39ffab8d-839f-4dff-b40c-f7b7debc0599",
+                "resourcePath": "sprites\\s_planet_iron\\s_planet_iron.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -290,7 +274,7 @@
             "Key": "dd6e164d-8336-4aca-a599-87cb9842584e",
             "Value": {
                 "id": "02784846-59cc-400a-a923-204a00ac72d9",
-                "resourcePath": "sprites\/s_planet_1\/s_planet_1.yy",
+                "resourcePath": "sprites\\s_planet_silicate\\s_planet_silicate.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -332,6 +316,14 @@
                 "id": "b973a241-a822-4471-bbf9-ba6e370b311b",
                 "resourcePath": "options\/mac\/options_mac.yy",
                 "resourceType": "GMMacOptions"
+            }
+        },
+        {
+            "Key": "f8ac2051-3928-42a6-b696-55b086eec5ee",
+            "Value": {
+                "id": "8ad17c88-43f5-43dc-95d8-82176f69883b",
+                "resourcePath": "sprites\\s_planet_ice\\s_planet_ice.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
