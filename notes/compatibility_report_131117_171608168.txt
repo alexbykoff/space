@@ -1,5 +1,0 @@
-Converting GML script: ${project_dir}\scripts\totro\totro.gml
-Converted description /// @description totro(minsyl,maxsyl,n)/// @function totro
-/// @param minsyl
-/// @param maxsyl
-/// @param n
