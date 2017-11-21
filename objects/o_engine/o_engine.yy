@@ -1,8 +1,8 @@
 {
-    "id": "0d10ef8e-0b6b-4d7f-ac7b-c106afba781d",
+    "id": "4b2fe746-48f3-497c-b335-6ea770d9c4d7",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "o_ship",
+    "name": "o_engine",
     "eventList": [
         
     ],

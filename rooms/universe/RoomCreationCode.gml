@@ -4,13 +4,8 @@ randomize(); // reset seed for an every game
 global.spaceMap = [];
 
 global.player = ds_map_create();
+prepareShip();
 
-global.ship = ds_map_create();
-global.ship[? "type"] = "default ship";
-global.ship[? "capacity"] = 5;
-global.ship[? "slots"] = 2;
-global.ship[? "price"] = 5200;
-global.ship[? "condition"] = 100;
 
 global.player[? "level"] = 1;
 global.player[? "xp"] = 1;
