@@ -12,29 +12,15 @@ with(o_planet_info) {
 	s_name = planetarySystem[? "name"];
 }
 
-var s = global.ship[? "parts"];
+var playerEngine = instance_create_layer(128, 128, "Instances", o_engine);
+playerEngine.sprite_index = s_engine01;
 
-var parts = ds_map_size(s);
-
-for (var i = 0; i <parts; i++ ) {
-  
+var modules = global.ship[? "modules"];
+for (var i = 0; i <array_length_1d(modules); i++ ) {
+	var module = modules[i];
+	var m = instance_create_layer(256 + 128 * i, 128, "Instances", module[? "object"]);
+	m.sprite_index = module[? "sprite"];  
 }
 
-var playerShip = instance_create_layer(300, 80, "Instances", o_ship);
-var playerCargo = instance_create_layer(0, 0, "Instances", o_cargo);
-var playerEngine = instance_create_layer(0, 0, "Instances", o_engine);
-
-playerShip.sprite_index = s[? "ship"];
-
-with (playerCargo) {
-	
-	sprite_index = s_cargo01;
-	x = playerShip.x - sprite_width;
-	y = playerShip.y;
-}
-
-with (playerEngine) {
-	sprite_index = s_engine01;
-	x = playerCargo.x - sprite_width;
-	y = playerCargo.y;
-}
+var playerShip = instance_create_layer(256 + 128 * array_length_1d(modules) ,128, "Instances", o_ship);
+playerShip.sprite_index = s_ship01;
