@@ -5,15 +5,27 @@ global.ship[? "slots"] = 2;
 global.ship[? "price"] = 5200;
 global.ship[? "condition"] = 100;
 
+var cargos = readFile("\\modules\\cargo.json");
 
+var moduleId = 1;
+/*
+for (var i = 0; i <ds_list_size(cargos); i ++) {
+	show_debug_message("into loop")	
+	var el = cargos[| i];
+	show_debug_message(el)
+	if (el[? "id"] == moduleId) {
+		show_debug_message("found element")
+	}
+}
+*/
 var shipModules = [];
 
+var c = cargos[| 0];
 var cargo = ds_map_create();
-cargo[? "type"] = "cargo module";
+cargo[? "name"] = c[? "name"];
 cargo[? "object"] = o_cargo;
-cargo[? "model"] = "Chimbalimba OY Hauler"
-cargo[? "capacity"] = 120;
-cargo[? "sprite"] = s_cargo01;
+cargo[? "capacity"] = c[? "capacity"];
+cargo[? "sprite"] = asset_get_index(c[? "sprite"]);
 
 shipModules[0] = cargo;
 

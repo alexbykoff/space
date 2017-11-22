@@ -134,6 +134,25 @@
             }
         },
         {
+            "Key": "1290e7d6-01d2-4251-8989-c6c906e40375",
+            "Value": {
+                "id": "beeaeb38-bbeb-46f0-adda-d2eb103c7ea4",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "views\/1290e7d6-01d2-4251-8989-c6c906e40375.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "13dfc16f-9df6-4666-bf11-6bab07ed7223",
             "Value": {
                 "id": "ae94b18d-32f4-4627-8d4f-346fa8d301fe",
@@ -435,6 +454,25 @@
                 ],
                 "resourcePath": "rooms\/universe\/universe.yy",
                 "resourceType": "GMRoom"
+            }
+        },
+        {
+            "Key": "4d9bd11c-6b66-46c8-9ed8-e72766c2c825",
+            "Value": {
+                "id": "e1a75818-1299-4c28-9249-ba904be68489",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "datafiles_yy\/modules\/cargo.json.yy",
+                "resourceType": "GMIncludedFile"
             }
         },
         {
@@ -796,6 +834,25 @@
                 ],
                 "resourcePath": "datafiles_yy\/LICENSE.txt.yy",
                 "resourceType": "GMIncludedFile"
+            }
+        },
+        {
+            "Key": "94015b35-cc1e-4d1d-a4bc-08b15b6deb5a",
+            "Value": {
+                "id": "d2b5dafd-a304-4804-bfd0-2586fe549311",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "scripts\/readFile\/readFile.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -1200,7 +1257,8 @@
     ],
     "script_order": [
         "3bca8758-4d85-4cf3-8f1f-b6b0c295c176",
-        "13dfc16f-9df6-4666-bf11-6bab07ed7223"
+        "13dfc16f-9df6-4666-bf11-6bab07ed7223",
+        "94015b35-cc1e-4d1d-a4bc-08b15b6deb5a"
     ],
     "tutorial": ""
 }

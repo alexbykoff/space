@@ -66,7 +66,7 @@ for(var i = 0; i < numberOfStars; i++) {  // number of stars
 	show_debug_message("Star: " + star);
 	show_debug_message("Planet Count: " + string(planetCount)); // always 'stringify' other types before consoling
 }
-show_debug_message(working_directory)
+
 var con = file_text_open_read(working_directory+ "\\file.json");
 var theData = "";
 while (!file_text_eof(con))
@@ -75,8 +75,6 @@ while (!file_text_eof(con))
     file_text_readln(con);
 }
 file_text_close(con)
-show_debug_message(theData);
 var ds = json_decode(theData);
-// var myList = ds_map_find_value(ds, "default");
 var f = ds[? "props"]
 show_debug_message(f[? "b"]);

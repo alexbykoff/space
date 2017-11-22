@@ -1,0 +1,11 @@
+[
+  {
+    "id": 1,
+    "name": "U-Haul cargo module",
+    "capacity": 20,
+    "price": 800,
+    "weight": 120,
+    "sprite": "s_cargo01",
+    "tech": 0
+  }
+]
