@@ -1,19 +1,10 @@
 {
-    "id": "6f477c1f-d955-47d4-8fb1-0907d88e8c90",
+    "id": "22e79a49-a309-4726-9971-0fe1891db3cd",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "o_planet_info",
+    "name": "o_planet_large",
     "eventList": [
-        {
-            "id": "16c4baae-5773-4d8a-836f-d46298f957e6",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": true,
-            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 0,
-            "eventtype": 8,
-            "m_owner": "6f477c1f-d955-47d4-8fb1-0907d88e8c90"
-        }
+        
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "parentObjectId": "00000000-0000-0000-0000-000000000000",

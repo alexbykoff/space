@@ -67,14 +67,3 @@ for(var i = 0; i < numberOfStars; i++) {  // number of stars
 	show_debug_message("Planet Count: " + string(planetCount)); // always 'stringify' other types before consoling
 }
 
-var con = file_text_open_read(working_directory+ "\\file.json");
-var theData = "";
-while (!file_text_eof(con))
-{
-    theData += file_text_read_string(con);
-    file_text_readln(con);
-}
-file_text_close(con)
-var ds = json_decode(theData);
-var f = ds[? "props"]
-show_debug_message(f[? "b"]);
