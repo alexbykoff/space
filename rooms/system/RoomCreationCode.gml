@@ -33,7 +33,7 @@ for(var i = 0; i < planetCount; i++) {
 	
 	show_debug_message(p[? "mass"]);
 	with(current) {		
-		image_yscale = p[? "mass"];
+		image_yscale = p[? "mass"] / 15;
 		image_xscale = image_yscale;
 		image_angle = round(random_range(0, 360));
 		name = p[? "name"];
