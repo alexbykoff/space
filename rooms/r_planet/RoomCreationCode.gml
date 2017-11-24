@@ -13,15 +13,15 @@ var planetSprite = instance_create_layer(room_width, room_height / 3, "Instances
 show_debug_message(planet[? "sprite"])
 planetSprite.sprite_index = planet[? "sprite"];
 
-var playerEngine = instance_create_layer(128, 96, "Instances", o_engine);
+var playerEngine = instance_create_layer(64, 64, "Instances", o_engine);
 playerEngine.sprite_index = s_engine01;
 
 var modules = global.ship[? "modules"];
 for (var i = 0; i <array_length_1d(modules); i++ ) {
 	var module = modules[i];
-	var m = instance_create_layer(224 + 64 * i, 96, "Instances", module[? "object"]);
+	var m = instance_create_layer(160 + 64 * i, 64, "Instances", module[? "object"]);
 	m.sprite_index = module[? "sprite"];  
 }
 
-var playerShip = instance_create_layer(256 + 64 * array_length_1d(modules) ,96, "Instances", o_ship);
+var playerShip = instance_create_layer(192 + 64 * array_length_1d(modules), 64, "Instances", o_ship);
 playerShip.sprite_index = s_ship01;

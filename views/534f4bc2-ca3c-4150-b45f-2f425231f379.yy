@@ -9,7 +9,7 @@
         "4b2fe746-48f3-497c-b335-6ea770d9c4d7"
     ],
     "filterType": "GMObject",
-    "folderName": "Shiip",
+    "folderName": "Ship",
     "isDefaultView": false,
     "localisedFolderName": ""
 }
