@@ -119,6 +119,14 @@
             }
         },
         {
+            "Key": "22e79a49-a309-4726-9971-0fe1891db3cd",
+            "Value": {
+                "id": "9607c2c0-a893-42c4-8ad5-a0231bda4cb7",
+                "resourcePath": "objects\\o_planet_large\\o_planet_large.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "26573417-2708-4aa4-a6c0-2be90763e755",
             "Value": {
                 "id": "8fdb665a-7fbf-48a7-b4d5-3ec89a14b020",
@@ -467,14 +475,6 @@
             "Value": {
                 "id": "02784846-59cc-400a-a923-204a00ac72d9",
                 "resourcePath": "sprites\/s_planet_silicate\/s_planet_silicate.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
-            "Key": "df42b793-da50-4709-8af6-22f8431d2e66",
-            "Value": {
-                "id": "885aa1c5-82a4-4128-9ca3-654a79d1c751",
-                "resourcePath": "sprites\/s_planet\/s_planet.yy",
                 "resourceType": "GMSprite"
             }
         },
